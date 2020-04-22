@@ -13,11 +13,11 @@ public abstract class HouseBuilder {
     /**
      * 用抽象方法定义建造流程
      */
-    public abstract void buildBasic();
+    public abstract String buildBasic();
     public abstract void buildWall();
     public abstract void roofed();
 
-    // 建造房子，将产品(房子返回
+    // 建造房子，将产品(房子)返回
     public House buildHouse(){
         return house;
     }

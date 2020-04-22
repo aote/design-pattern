@@ -9,8 +9,9 @@ package com.aote.builder;
 public class CommonHouse extends HouseBuilder {
 
     @Override
-    public void buildBasic() {
+    public String buildBasic() {
         System.out.println("普通房子打地基");
+        return "普通房子打地基";
     }
 
     @Override

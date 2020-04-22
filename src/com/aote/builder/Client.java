@@ -15,6 +15,7 @@ public class Client {
         HouseDirector houseDirector = new HouseDirector(commonHouse);
         // 完成盖房子，返回产品(房子)
         House house = houseDirector.constructHouse();
+        System.out.println(house);
 
     }
 

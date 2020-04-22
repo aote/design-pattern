@@ -17,10 +17,12 @@ public class HouseDirector {
 
     // 指挥流程
     public House constructHouse(){
-        houseBuilder.buildBasic();
+        String basic = houseBuilder.buildBasic();
         houseBuilder.buildWall();
         houseBuilder.roofed();
-        return houseBuilder.buildHouse();
+        House house = houseBuilder.buildHouse();
+        house.setBasic(basic);
+        return house;
     }
 
     public void setHouseBuilder(HouseBuilder houseBuilder) {

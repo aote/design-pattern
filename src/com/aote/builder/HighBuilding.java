@@ -9,8 +9,9 @@ package com.aote.builder;
 public class HighBuilding extends HouseBuilder {
 
     @Override
-    public void buildBasic() {
+    public String buildBasic() {
         System.out.println("高楼打地基");
+        return "高楼打地基";
     }
 
     @Override
