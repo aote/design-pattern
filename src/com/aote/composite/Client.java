@@ -4,7 +4,7 @@ package com.aote.composite;
  * @Author aote
  * @Date 2020-04-25 19:45
  * @Version 1.0
- * @Description TODO
+ * @Description 组合模式
  **/
 public class Client {
 
