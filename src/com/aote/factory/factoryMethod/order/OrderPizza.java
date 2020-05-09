@@ -1,4 +1,4 @@
-package com.aote.factory.factoryMethod.Order;
+package com.aote.factory.factoryMethod.order;
 
 import com.aote.factory.factoryMethod.Pizza;
 
@@ -7,14 +7,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * @Description 工厂方法类
+ * @Description 定义一个抽象的方法工厂
  * @Author aote
  * @Date 2020-04-22 00:16
  * @Version 1.0
  **/
 public abstract class OrderPizza {
 
-    // 定义一个抽象方法，createPizza，让哥哥工厂子类自己实现
+    // 定义一个抽象方法，createPizza，让各个工厂子类自己实现
     abstract Pizza createPizza(String orderType);
 
     public OrderPizza(){

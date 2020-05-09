@@ -1,6 +1,5 @@
 package com.aote.flyweight;
 
-import com.sun.tools.internal.ws.resources.WebserviceapMessages;
 
 /**
  * @Author aote
