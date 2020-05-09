@@ -29,6 +29,7 @@ public class OrderPizza {
             orderType = getType();
             // factory 可能是北京的工厂子类，也可能是伦敦的工厂子类
             pizza = factory.createPizza(orderType);
+            pizza.setName(orderType);
             if (pizza != null) { // 订购ok
                 pizza.prepare();
                 pizza.bake();
