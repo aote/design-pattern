@@ -11,20 +11,19 @@ import java.io.InputStreamReader;
  * @Author aote
  * @Date 2020-04-22 00:16
  * @Version 1.0
- * @Description 定义一个抽象的方法工厂
+ * @Description 聚合抽象工厂接口，依赖各个子类工厂
  **/
-public abstract class OrderPizza {
+public class OrderPizza {
 
     AbsFactory factory;
 
     public OrderPizza(AbsFactory factory) {
-        this.factory = factory;
+        setFactory(factory);
     }
 
     public void setFactory(AbsFactory factory) {
         Pizza pizza = null;
         String orderType = ""; // 用户输入
-        this.factory = factory;
         this.factory = factory;
         do {
             orderType = getType();

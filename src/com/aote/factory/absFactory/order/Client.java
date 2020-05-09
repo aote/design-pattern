@@ -8,6 +8,7 @@ package com.aote.factory.absFactory.order;
 public class Client {
 
     public static void main(String[] args) {
+        new OrderPizza(new BJFactory());
     }
 
 }

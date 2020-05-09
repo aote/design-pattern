@@ -7,7 +7,7 @@ import com.aote.factory.absFactory.Pizza;
 /**
  * @author: Weicf
  * @date: 2020-05-09 13:59
- * @description:
+ * @description: 抽象工厂的具体实现
  */
 public class BJFactory implements AbsFactory {
 

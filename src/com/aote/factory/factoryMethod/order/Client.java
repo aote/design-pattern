@@ -1,4 +1,4 @@
-package com.aote.factory.factoryMethod;
+package com.aote.factory.factoryMethod.order;
 
 
 import com.aote.factory.factoryMethod.order.BJOrderPizza;
