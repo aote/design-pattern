@@ -8,7 +8,7 @@ package com.aote.source;
 public class Ani {
 
     public void run(){
-
+        System.out.println("run");
     }
 
 }

@@ -13,6 +13,16 @@ public class Test {
         Excutor excutor = new ExcutorImpl();
         excutor.test(new Dog());
 
+
+        // 泛型测试
+        Dog d = new Dog();
+        Generic g = new Generic(d);
+        System.out.println("泛型 - "+g.getA());
+
+        for(int i=0;i<20;i++){
+            System.out.println(("k"+i).hashCode() & (16 - 1));
+        }
+
     }
 
 }
